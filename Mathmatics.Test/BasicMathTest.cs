@@ -1,36 +1,43 @@
 namespace Mathmatics.Test;
 
-public class BasicMathTest
+public class BasicMathTest : IClassFixture<BasicMathTestFixture>
 {
-    [Fact]
-    public void TestAddTwoNumbers()
+    private BasicMathTestFixture _fixture;
+
+    public BasicMathTest(BasicMathTestFixture fixture)
     {
-        BasicMath basicMath = new BasicMath();
-        int result = basicMath.Add(5, 3);
-        Assert.Equal(8, result);
+        _fixture = fixture;
+    }
+    
+    [Theory]
+    [InlineData(5, 3, 8)]
+    [InlineData(10, 5, 15)]
+    [InlineData(20, 15, 35)]
+    
+    public void TestAddTwoNumbers(int num1, int num2, int expectedResults)
+    {
+        int result = _fixture.TestObject.Add(num1, num2);
+        Assert.Equal(expectedResults, result);
     }
     
     [Fact]
     public void TestSubtractTwoNumbers()
     {
-        BasicMath basicMath = new BasicMath();
-        int result = basicMath.Subtract(5, 3);
+        int result = _fixture.TestObject.Subtract(5, 3);
         Assert.Equal(2, result);
     }
     
     [Fact]
     public void TestMultiplyTwoNumbers()
     {
-        BasicMath basicMath = new BasicMath();
-        int result = basicMath.Multiply(5, 3);
+        int result = _fixture.TestObject.Multiply(5, 3);
         Assert.Equal(15, result);
     }
     
     [Fact]
     public void TestDivideTwoNumbers()
     {
-        BasicMath basicMath = new BasicMath();
-        int result = basicMath.Divide(6, 3);
+        int result = _fixture.TestObject.Divide(6, 3);
         Assert.Equal(2, result);
     }
 }
