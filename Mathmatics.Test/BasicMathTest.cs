@@ -13,7 +13,6 @@ public class BasicMathTest : IClassFixture<BasicMathTestFixture>
     [InlineData(5, 3, 8)]
     [InlineData(10, 5, 15)]
     [InlineData(20, 15, 35)]
-    
     public void TestAddTwoNumbers(int num1, int num2, int expectedResults)
     {
         int result = _fixture.TestObject.Add(num1, num2);

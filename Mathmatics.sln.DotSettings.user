@@ -1,24 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=96b18585_002Da144_002D4d53_002D8b8b_002Dae2f5d4e3fe3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BasicMathTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fdcbacfc_002Dcc5f_002D4b13_002D91ba_002Df8b82c4a16ce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCalculateAverage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::CF63809D-7097-4E0D-BCE2-011298B424F3::net8.0::Mathmatics.Test.BasicMathTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::CF63809D-7097-4E0D-BCE2-011298B424F3::net8.0::Mathmatics.Test.AdvMathTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=97c8264c_002Dac8e_002D41f1_002Daae6_002Dff3747ff0810/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestAddTwoNumbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::CF63809D-7097-4E0D-BCE2-011298B424F3::net8.0::Mathmatics.Test.BasicMathTest.TestAddTwoNumbers&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a960dbe7_002D6e2a_002D47b1_002D8d8c_002D4780b7b1c09a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BasicMathTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::CF63809D-7097-4E0D-BCE2-011298B424F3::net8.0::Mathmatics.Test.BasicMathTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e1f5192a_002Dbd17_002D4cce_002D8eb8_002Dabdd7c214799/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BasicMathTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::CF63809D-7097-4E0D-BCE2-011298B424F3::net8.0::Mathmatics.Test.BasicMathTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	</wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
